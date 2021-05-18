@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h2>Mi formulario de Registro</h2>
+    <label for="name"> Nombre:</label>
+    <input type="text" id="name" name="name">
+    <br>
+    <label for="last_name">Apellido:</label>
+    <input type="text" id="last_name" name="last_name">
+    <br>
+    <label for="email">Email  :</label>
+    <input type="text" id="email" name="email">
+    <br>
+    <label for="pass">Contraseña:</label>
+    <input type="password" id="pass" name="pass">
+    <br>
+    <label for="pass2">Confirmar:</label>
+    <input type="password" id="pass2" name="pass2">
+    <br>
+    <label for="fecha">Cumpleaños:</label>
+    <input type="date" id="fecha" name="fecha">
+    <br><br><br>
+    <label for="masc">Hombre</label>
+    <input type="radio" id="masc" name="sexo" value="1">
+    <label for="fem">Mujer</label>
+    <input type="radio" id="fem" name="sexo" value="2">
+    <label for="otro">Otro</label>
+    <input type="radio" id="otro" name="sexo" value="3">
+    <br><br>
+    <label for="desc">Una breve descripcion de ti:</label><br>
+    <textarea id="desc" name="descripcion" rows="4" cols="20">
+    </textarea>
+    <br><br>
+    <label for="lenguajes">Lenguajes Favorito:</label>
+    <select id="lenguajes" name="lenguajes">
+    <option value="0">Seleccione lenguaje...</option>
+    <option value="1">HTML</option>
+    <option value="2">CSS</option>
+    <option value="3">JavaScript</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Enviar...">
+    <br><br>
+</body>
+
+</html>
