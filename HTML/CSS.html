@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS::</title>
+    <style>
+        /* Formas de dar estilo*/
+        /* por la etiqueta */
+        
+        p {
+            color: darkcyan;
+        }
+        
+        label {
+            color: rebeccapurple;
+            font-size: 24px;
+        }
+        
+        div {
+            background: #ffffff url("imagenes/fondo.jpeg") no-repeat fixed center;
+            background-color: rgb(59, 151, 82);
+            /*background-image: url("imagenes/fondo.jpeg");*/
+            background-image: linear-gradient(to bottom right, red, yellow);
+            background-position: top;
+            opacity: 0.3;
+        }
+        /* por clase*/
+        /*una o mas etiquetas*/
+        
+        .colores {
+            color: greenyellow;
+        }
+        
+        .imagenes {
+            width: 150px;
+            height: auto;
+        }
+        /*por el id*/
+        /*un unico elemento*/
+        
+        #parrafo3 {
+            color: chocolate;
+        }
+        
+        #parrafo4 {
+            color: #00bff4;
+            font-size: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        table {
+            width: 100%;
+        }
+        
+        table,
+        th {
+            border: 4px solid #00bff4;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- -->
+        <p>Esto es un parrafo 1</p>
+        <p class="colores">Esto es un parrafo 2</p>
+        <p id="parrafo3">Esto es un parrafo 3</p>
+        <p id="parrafo4" class="colores">parrafo 4</p>
+        <label for="" class="colores">esto es un label</label>
+        <img src="imagenes/css.jpeg" alt="css" class="imagenes">
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titulo 1</th>
+                    <th>Titulo 2</th>
+                    <th>Titulo 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>dato 1</td>
+                    <td>dato 2</td>
+                    <td>dato 3</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
