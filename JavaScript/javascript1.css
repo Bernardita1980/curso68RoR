@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenedortotal {
+    width: 970px;
+    background-color: #12355b;
+    margin: 15px;
+    overflow: hidden;
+    height: auto;
+}
+
+#barraroja {
+    width: 950px;
+    height: 64px;
+    background-color: #d72638;
+    margin: 10px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #bfd7ea;
+    text-align: left;
+    padding: 13px;
+}
+
+#bloqueazul {
+    height: auto;
+    width: 200px;
+    background-color: #087e8b;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 0px 10px 10px;
+    border-radius: 10px;
+}
+
+a {
+    color: #4bdee5;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.listacentralsolo {
+    margin: 10px 0px 0px 10px;
+}
+
+.listacentral {
+    margin: auto;
+}
+
+ul.listacentral {
+    list-style-type: disc;
+    margin: left;
+}
+
+li#invisible {
+    list-style-type: none;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+::marker {
+    color: aqua;
+}
+
+ul.lista1 {
+    list-style-type: circle;
+}
+
+ul.tamañolista {
+    margin-bottom: 10px;
+    margin: 0px 10px 5px;
+}
+
+#azulpiedra {
+    height: auto;
+    width: 720px;
+    background-color: #0c1821;
+    border-radius: 0px 0px 10px 10px;
+    vertical-align: top;
+    padding: 10px 5px 10px 5px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#listainterna {
+    display: inline-block;
+    font-size: 90%;
+    list-style: color #4bdee5;
+}
+
+h2 {
+    color: #bfd7ea;
+    padding: 5px 0px 5px 0px;
+}
+
+p {
+    color: #bfd7ea;
+    font-size: 80%;
+    display: inline-block;
+}
+
+#bloquegris {
+    min-height: 52px;
+    width: 950px;
+    background-color: #5c6672;
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+h5 {
+    color: #bfd7ea;
+    padding: 20px 0px 0px 10px;
+}
