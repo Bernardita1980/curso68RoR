@@ -20,13 +20,13 @@
             <a class="listacentralsolo" href="Home">Home</a>
             <ul class="tamañolista">
                 <li>
-                    <a class="listacentral" href="JavaScript Overview">JavaScript Overview</a>
+                    <a class="listacentral" href="JavaScriptOverview">JavaScript Overview</a>
                 </li>
                 <li id="invisible">
                     <ul>
-                        <li><a class="lista1" href="Variable Declaration">Variable Declaration</a></li>
-                        <li><a class="lista1" href="Variable Assignment">Variable Assignment</a></li>
-                        <li><a class="lista1" href="Data Type">Data Type</a></li>
+                        <li><a class="lista1" href="VariableDeclaration">Variable Declaration</a></li>
+                        <li><a class="lista1" href="VariableAssignment">Variable Assignment</a></li>
+                        <li><a class="lista1" href="DataType">Data Type</a></li>
                         <li><a class="lista1" href="Conditionals">Conditionals</a></li>
                         <li><a class="lista1" href="Loops">Loops</a></li>
                         <li><a class="lista1" href="Function">Function</a></li>
@@ -37,35 +37,47 @@
                 <li><a class="listacentral" href="Quitz">Quitz</a></li>
             </ul>
         </div>
-
         <div id="azulpiedra">
-            <h2><b>JavaScript Basics<b></h2>
+            <h2>JavaScript Basics</h2>
             <p>JavaScript is a cross-platform, object-oriented scripting language. JavaScript is extremely popular for a variety of reasons. It is a small and lightweight language allowing maximum flexibility for developers to take it in a bunch of different
                 directions. JavaScript lives inside a host environment (a web browser or Node server), it can be connected to the objects of these environments to provide programmatic control over them.</p>
             <ul id="listainterna">
                 <li><a href="variableDeclaration">Variable Declaration</a>
-                <p>JavaScript variables are containers for storing data values - imagine a cup you fill with coffee, the cup holds the coffee, a variable holds a value. All JavaScript variables must be identified with unique names. These unique names are called identifiers.<span style="color:#466fe5">var x;</span> </p></li>
+                    <p>JavaScript variables are containers for storing data values - imagine a cup you fill with coffee, the cup holds the coffee, a variable holds a value. All JavaScript variables must be identified with unique names. These unique names
+                        are called identifiers.<span style="color:#466fe5">var x;</span> </p>
+                </li>
                 <li><a href="VariableAssignment">Variable Assignment</a>
-                <p>Assignment operators assign values to JavaScript variables - our cup can now have coffee poured in it, giving our
-
-                variable a value to hold. The assignment operator assigns a value to a variable. <span style="color:#466fe5">x = 10;</span></p></li>
+                    <p>Assignment operators assign values to JavaScript variables - our cup can now have coffee poured in it, giving our variable a value to hold. The assignment operator assigns a value to a variable. <span style="color:#466fe5">x = 10;</span></p>
+                </li>
                 <li><a href="DataTypes">Data Types</a>
-                <p>Data types are an important concept; to be able to operate on variables you need to know the data type. There are six data types that are JavaScript primitives: Boolean -<span style="color:#466fe5">true</span> or <span style="color:#466fe5">false</span>; null -<span style="color:#466fe5">null</span> aka nothing; Number -<span style="color:#466fe5">42</span> or <span style="color:#466fe5">3.14159;</span> String-<span style="color:#466fe5">"Coding Dojo Rocks!";</span> Array<span style="color:#466fe5">[1, 'Coding, 2, 'Dojo'];</span> and Object - <span style="color:#466fe5">{first_name: 'Jane', last name: ' Doe')</span></p></li>
+                    <p>Data types are an important concept; to be able to operate on variables you need to know the data type. There are six data types that are JavaScript primitives: Boolean -<span style="color:#466fe5">true</span> or <span style="color:#466fe5">false</span>;
+                        null -<span style="color:#466fe5">null</span> aka nothing; Number -<span style="color:#466fe5">42</span> or <span style="color:#466fe5">3.14159;</span> String-<span style="color:#466fe5">"Coding Dojo Rocks!";</span> Array
+                        <span style="color:#466fe5">[1, 'Coding, 2, 'Dojo'];</span> and Object - <span style="color:#466fe5">{first_name: 'Jane', last name: ' Doe')</span></p>
+                </li>
                 <li><a href="Conditionals">Conditionals</a>
-                <p>When you write code, you want to perform different actions for different decisions - hitting different code blocks based on values or conditions that have been met. You can use conditional statements in your code to accomplish this. There are the following conditional statements: <span style="color:#466fe5">if</span> a specified condition is true, do this code in our code block;<span style="color:#466fe5">else if</span>  to specify a new condition to test, if the first condition is false;<span style="color:#466fe5">else</span> we execute this block of code;</p></li>
+                    <p>When you write code, you want to perform different actions for different decisions - hitting different code blocks based on values or conditions that have been met. You can use conditional statements in your code to accomplish this.
+                        There are the following conditional statements: <span style="color:#466fe5">if</span> a specified condition is true, do this code in our code block;<span style="color:#466fe5">else if</span> to specify a new condition to test,
+                        if the first condition is false;<span style="color:#466fe5">else</span> we execute this block of code;</p>
+                </li>
                 <li><a href="Loops">Loops</a>
-                <p>There are many different kinds of loops in every programming language, but they all essentially do the same thing: they will repeat an action some number of times. Imagine you have to run a mile, well you run around the track four times and then you stop. Thats a loop!</p></li>
+                    <p>There are many different kinds of loops in every programming language, but they all essentially do the same thing: they will repeat an action some number of times. Imagine you have to run a mile, well you run around the track four
+                        times and then you stop. Thats a loop!</p>
+                </li>
                 <li><a href="Function">Function</a>
-                <p>Functions are an encaspulation of a code block. When we call our function this will run that code block. Think of it as a list of instructions. As an example imagine we are putting together a desk from Ikea, we open up the instruction manual and get started, first we screw the legs to the table top; next we place the table the right way up. Done! We finished our instructions. Sadly there are a ton more tables to do so lets call our function over and over and over again.</p></li>             
+                    <p>Functions are an encaspulation of a code block. When we call our function this will run that code block. Think of it as a list of instructions. As an example imagine we are putting together a desk from Ikea, we open up the instruction
+                        manual and get started, first we screw the legs to the table top; next we place the table the right way up. Done! We finished our instructions. Sadly there are a ton more tables to do so lets call our function over and over and
+                        over again.</p>
+                </li>
             </ul>
         </div>
-            <div id="bloquegris">
-                <h5>For more useful information check out this url:<a href="JavaScript">JavaScript!</a><h5>
-            </div>
-            
+        <div id="bloquegris">
+            <p id="parrafofinal">For more useful information check out this url:<a href="JavaScripT!">JavaScript!</a></p>
+
+        </div>
+
     </div>
-    
-    
+
+
 
 </body>
 

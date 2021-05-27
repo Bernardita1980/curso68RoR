@@ -96,12 +96,12 @@ ul.tamañolista {
 h2 {
     color: #bfd7ea;
     padding: 5px 0px 5px 0px;
+    font-weight: 900;
 }
 
 p {
     color: #bfd7ea;
     font-size: 80%;
-    display: inline-block;
 }
 
 #bloquegris {
@@ -110,6 +110,11 @@ p {
     background-color: #5c6672;
     margin: 10px 10px 10px 10px;
     border-radius: 20px;
+    display: inline-block;
+}
+
+#parrafofinal {
+    padding: 20px 0px 20px 10px;
 }
 
 h5 {
