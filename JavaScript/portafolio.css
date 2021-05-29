@@ -1,0 +1,27 @@
+body * {
+    outline: 1px solid palevioletred;
+}
+
+div.container {
+    width: 980px;
+    min-height: 800px;
+    background-image: linear-gradient(#35232a, #6f5964, #35232a);
+    margin: 0px auto;
+}
+
+div.top {
+    min-height: 40px;
+    width: 980px;
+    background-color: #f8f8f8;
+    display: inline-block;
+}
+
+h1 {
+    display: inline-block;
+}
+
+h2 {
+    margin-right: 300px;
+    display: inline-block;
+    padding:
+}
