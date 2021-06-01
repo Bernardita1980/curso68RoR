@@ -1,3 +1,115 @@
-body * {
-    outline: 1px solid palevioletred;
-}
+                    /*body * {
+            outline: 1px solid palevioletred;
+        }*/
+                
+                .contenedortotal {
+                    background-image: linear-gradient(#38262c, #6f5964, #38262c);
+                    width: 970px;
+                    min-height: auto;
+                }
+                
+                #Cabezera {
+                    background-color: #f8f8f8;
+                    width: 970;
+                    height: 60px;
+                    display: flex;
+                }
+                
+                h1 {
+                    text-align: left;
+                    h2 {
+                        text-align: right;
+                        padding-left: 340px;
+                    }
+                    #contenedorfotoytexto {
+                        height: 300px;
+                    }
+                    .central1 {
+                        display: inline-block;
+                        width: 428px;
+                        vertical-align: top;
+                        margin: 12px;
+                        height: 281px;
+                        background-image: linear-gradient(#6f5964, #e0d3df);
+                    }
+                    .central2 {
+                        display: inline-block;
+                        width: 487px;
+                        vertical-align: top;
+                        margin: 12px;
+                        height: 281px;
+                        background-image: linear-gradient(#6f5964, #e0d3df);
+                    }
+                    .mujer {
+                        width: 416px;
+                        height: 270px;
+                        margin-right: 150px;
+                        padding: 5px 5px 5px 5px;
+                    }
+                    #About-titulo {
+                        width: 487px;
+                        height: 30px;
+                        background-image: linear-gradient(#a4a3aa, #8a8895, #a4a3aa);
+                        ;
+                        color: rgb(241, 241, 241);
+                        margin: auto;
+                    }
+                    #About {
+                        width: 487px;
+                        height: 251px;
+                        padding-left: 10px;
+                    }
+                    /*tarjetas*/
+                    #contenedorcardsx3 {
+                        min-height: 400px;
+                    }
+                    .tarjetas {
+                        display: inline-block;
+                        width: 300px;
+                        background-image: linear-gradient(#6f5964, #e0d3df);
+                        vertical-align: top;
+                        margin: 10px;
+                        height: 487px;
+                    }
+                    .imagen {
+                        height: 133px;
+                        width: 300px;
+                    }
+                    .texto-tarjetas {
+                        height: 135px;
+                    }
+                    h3 {
+                        height: 30px;
+                        width: 300pxpx;
+                        background-image: linear-gradient(#a4a3aa, #8a8895, #a4a3aa);
+                        margin: auto;
+                        color: rgb(241, 241, 241);
+                    }
+                    h4 {
+                        background-image: linear-gradient(#a4a3aa, #8a8895, #a4a3aa);
+                        ;
+                        width: 300px;
+                        height: 30px;
+                        color: blanchedalmond;
+                        font-family: "Arial Rounded MT Bold";
+                    }
+                    .boton {
+                        display: block;
+                        background-color: #407d61;
+                        padding: 8px;
+                        border: 1px solid black;
+                        color: blanchedalmond;
+                        text-decoration: none;
+                        bottom: 10px;
+                        width: 106px;
+                        border-radius: 10px;
+                        height: 8px;
+                        text-align: center;
+                        margin: auto;
+                    }
+                    #final img {
+                        width: 20px;
+                        height: 20px;
+                        text-align: center;
+                        margin-block-end: auto;
+                    }
