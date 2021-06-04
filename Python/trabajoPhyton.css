@@ -51,10 +51,14 @@ input {
 }
 
 .Go {
-    width: 30px;
-    height: 30px;
-    background-color: #265175;
+    width: 42px;
+    height: 33px;
+    background-color: #2d628d;
     color: #ffffff;
+    border-radius: 6px;
+    font-family: "gadugi";
+    border-right: white;
+    border-bottom-style: inset;
 }
 
 img {
@@ -79,14 +83,14 @@ img {
 
 .linkhorizontal {
     color: #ffffff;
-    width: 133px;
-    font-size: 130%;
-    text-decoration-line: none;
+    width: 140px;
+    font-size: 128%;
     height: 38px;
     display: inline-block;
     text-decoration: none;
-    padding: 5px 15px;
+    padding: 5px 18px;
     font-family: "gadugi";
+    text-align: center;
 }
 
 
@@ -167,10 +171,9 @@ h2 {
 
 .CajaGet-App {
     display: inline-block;
-    width: 880px;
+    width: 970px;
     height: auto;
-    margin: 0px 13px 0px 34px;
-    padding: 6px 22px 5px 20px;
+    padding: 6px 0px 5px 0px;
     background-color: white;
 }
 
@@ -180,6 +183,7 @@ h2 {
     vertical-align: top;
     border-top: 4px solid #75a8d3;
     padding-right: 21px;
+    margin-left: 35px;
 }
 
 .tarjeta2 {
@@ -208,7 +212,6 @@ samp {
 
 h3 {
     text-align: center;
-    border-width: 5px 0px 0px 0px;
     border-color: #75a8d3;
     width: 395px;
     font-family: "gadugi";
