@@ -1,0 +1,57 @@
+.contenedor {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: inline-block;
+}
+
+h1 {
+    background-color: #b3b3b3;
+    margin: 5px 0px;
+    height: 25%;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+}
+
+p {
+    background-color: #cccccc;
+    display: inline-block;
+    margin: 5px 0px;
+    width: 100%;
+}
+
+.footer,
+#Celu,
+#Tablet,
+#Desktop {
+    background-color: #ffff9a;
+    height: 15%;
+    width: 100%;
+}
+
+@media only screen and (max-width:480px) {
+    #Tablet,
+    #Desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:1023px) {
+    #Celu,
+    #Desktop {
+        display: none;
+    }
+    .contenedor,
+    h1,
+    p {
+        font-size: x-large;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    #Celu,
+    #Tablet {
+        display: none;
+    }
+}
