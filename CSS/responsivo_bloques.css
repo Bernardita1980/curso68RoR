@@ -1,0 +1,101 @@
+            #wrapper {
+                width: 90%;
+                background-color: silver;
+                margin: 15px;
+                overflow: hidden;
+                height: auto;
+            }
+            
+            #header {
+                background-color: green;
+                margin: 20px 15px 15px 15px;
+                padding: 10px 18px 150px;
+                display: block;
+                width: 93%;
+            }
+            
+            #navigation {
+                min-height: 299px;
+                width: 25%;
+                background-color: blue;
+                display: inline-block;
+                margin: 10px 0px 0px 15px;
+            }
+            
+            #main_content {
+                min-height: 400px;
+                width: 70%;
+                background-color: red;
+                margin: 10px 15px 15px 13px;
+                display: inline-block;
+                vertical-align: top;
+            }
+            
+            .subcontents {
+                min-height: 200px;
+                width: 210px;
+                background-color: yellow;
+                display: inline-block;
+                margin: 15px 15px 5px 2px;
+            }
+            
+            #subcontents1 {
+                margin: 15px 8px 5px 13px;
+            }
+            
+            #subcontents2 {
+                margin: 15px 8px 5px 2px;
+            }
+            
+            #advertisement {
+                min-height: 120px;
+                width: 90%;
+                background-color: purple;
+                margin: 5px 3px 5px 13px;
+                display: inline-block;
+            }
+            /*MEDIAQUERIES*/
+            
+            @media only screen and (max-width:480px) {
+                #navigation {
+                    display: none;
+                }
+                #header {
+                    width: 78%;
+                }
+                #main_content {
+                    min-height: 400px;
+                    width: 90%;
+                    margin: 10px 15px 15px 13px;
+                    vertical-align: top;
+                    overflow: hidden;
+                }
+                #subcontents2,
+                .subcontents {
+                    width: 90%;
+                    margin: 15px 8px 5px 12px;
+                    min-height: 135px;
+                }
+            }
+            
+            @media only screen and (min-width:481px) and (max-width:1023px) {
+                #navigation {
+                    display: none;
+                }
+                #header {
+                    width: 90%;
+                }
+                #main_content {
+                    min-height: 400px;
+                    width: 96%;
+                    margin: 10px 15px 15px 13px;
+                    display: inline-block;
+                    vertical-align: top;
+                    overflow: hidden;
+                }
+                .subcontents {
+                    margin: 15px 8px 5px 14px;
+                }
+            }
+            
+            @media only screen and (min-width:1024px) {}
