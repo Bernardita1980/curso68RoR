@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>Bootstrap</title>
+    <link href="bootstrap/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+    <title>Primer Bootstrap</title>
 </head>
 
 <body>
-    <h1>Hello World</h1>
-    <!-- Single button -->
-    <div class="btn-group">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Action <span class="caret"></span>
-    </button>
-        <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-        </ul>
-    </div>
-</body>
+    <div class="container">
 
-</html>
+        <div class="card" style="width: 18rem;">
+            <img src="imagenes/CSS.png" class="card-img-top" alt="css">
+            <div class="card-body">
+                <h5 class="card-title">Mi CSS</h5>
+                <p class="card-text">Seccion de estudio de css en Coding dojo.</p>
+                <a href="http://learn.codingdojo.com/m/160/7339/52723" class="btn btn-primary" target="_blank">ir a CSS</a>
+                <button type="button" class="btn btn-outline-success">Aceptar</button>
+            </div>
+        </div>
+        <br>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Correo Electronico:</label>
+            <input type="email" class="form-control" id="email" placeholder="Ingresa el correo">
+        </div>
+        <div class="mb-3">
+            <label for="descripcion" class="form-label">Ingrese Descripción</label>
+            <textarea class="form-control" id="descripcion" rows="3"></textarea>
+        </div>
+        <input class="form-control" type="text" placeholder="Disabled input" aria-label="Disabled input example" disabled>
+        <input class="form-control" type="text" placeholder="Disabled readonly input" aria-label="Disabled input example" disabled readonly>
+        <form class="row g-3">
+            <div class="col-auto">
+                <label for="staticEmail2" class="visually-hidden">Email</label>
+                <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+            </div>
+            <div class="col-auto">
+                <label for="inputPassword2" class="visually-hidden">Password</label>
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-warning btn-lg">Confirmar identidad</button>
+            </div>
+        </form>
+
+    </div>
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</head>

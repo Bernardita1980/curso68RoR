@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: wheat;
+    width: 800px;
+    height: auto;
+    padding: 15px;
+}
+
+#div1 {
+    background-color: teal;
+    width: 90%;
+    height: 200px;
+}
+
+#div2 {
+    background-color: rgb(2, 0, 128);
+    width: 90%;
+    height: 200px;
+}
+
+#div3 {
+    background-color: rgb(138, 91, 4);
+    width: 90%;
+    height: 200px;
+}
