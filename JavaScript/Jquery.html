@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejerciciosJQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready(function() {
+            //funcionalidad por etiqueta
+            $('button').click(function() {
+                console.log("Estoy en Jquery desde Button");
+                alert("Estoy en Jquery desde Button");
+            });
+            //generico para todas las etiquetas del tipo input
+            $('input').click(function() {
+                console.log("Estoy en Jquery desde input");
+                alert("Estoy en Jquery desde input");
+            });
+            //etiqueta.clase
+            //especificos para un tipo de elemento y su clase
+            $('input.input2').click(function() {
+                console.log("Estoy en Jquery desde input.clase");
+                alert("Estoy en Jquery desde input.input");
+            });
+            //funcionalidad por clase(.)
+            //se ejecuta en cualquier elemento que tenga esta clase
+            $('.input2').click(function() {
+                console.log("Estoy en Jquery desde input por clase");
+                alert("Estoy en Jquery desde input por clase");
+            });
+
+            //funcionalidad por ID(#)
+            //solo para el elemento con el id
+            $('#input3').click(function() {
+                console.log("Estoy en Jquery desde input por id");
+                alert("Estoy en Jquery desde input por id");
+            });
+            //ejercicio de JQuery*/
+            $('#input4').click(function() {
+                console.log($('#parrafo').text());
+                $('#parrafo').text("Texto modificado por medio del id");
+            });
+            //fin Jquery
+
+        });
+    </script>
+</head>
+
+<body>
+    <div>
+        <button>Jquery</button>
+        <input type="button" value="boton 1">
+        <input type="button" value="boton 2" class="input2">
+        <input type="button" value="boton 3" id="input3">
+        <input type="button" value="cambiar parrafo" id="input4">
+
+        <p id="parrafo" class="input2">Esto es un parrafoxx</p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THIS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <script>
+        $('button').click(function() {
+            alert('hola clase');
+
+        });
+        $(document).ready(function() {
+            $('#image1').click(function() {
+                $('#image1').hide();
+            });
+            $('#image2').click(function() {
+                $('#image2').hide();
+            });
+            $('#image3').click(function() {
+                $('#image3').hide();
+            });
+            $('#image4').click(function() {
+                $('#image4').hide();
+            });
+            $('#image5').click(function() {
+                $('#image5').hide();
+            });
+
+            $('img').click(function() {
+                $(this).hide();
+                console.log($(this));
+            });
+        });
+    </script>
+    <style>
+        img {
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="/Curso68/JavaScript/imagenes/tux.jfif" alt="tux" id="image1">
+        <img src="/Curso68/JavaScript/imagenes/tux.jfif" alt="tux" id="image2">
+        <img src="/Curso68/JavaScript/imagenes/tux.jfif" alt="tux" id="image3">
+        <img src="/Curso68/JavaScript/imagenes/tux.jfif" alt="tux" id="image4">
+        <img src="/Curso68/JavaScript/imagenes/tux.jfif" alt="tux" id="image5">
+        <br>
+        <button>this</button>
+    </div>
+</body>
+
+</html>

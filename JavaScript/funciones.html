@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNCIONES JQuery::</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $('document').ready(function() {
+            //$('').accion(function(){});
+            $('#boton1').click(function() {
+                console.log("Función click");
+                alert("Función click");
+            });
+            //hide
+            $('#boton2').click(function() {
+                $('#parrafo2').hide();
+            });
+            $('#parrafo2').click(function() {
+                $('#parrafo2').hide();
+            });
+            //show
+            $('#boton3').click(function() {
+                $('#parrafo2').show();
+            });
+            //toggle
+            $('#boton4').click(function() {
+                $('#parrafo2').toggle();
+            });
+            //------------------------------------------------//
+            //DESPLAZAMIENTO REGULADO 
+            //slideDown
+            $('#slideDown').click(function() {
+                $('#parrafo3').slideDown(10000);
+            });
+            //slideup
+            $('#slideup').click(function() {
+                $('#parrafo3').slideUp();
+            });
+            //slidetoggle
+            $('#slidetoggle').click(function() {
+                $('#parrafo3').slideToggle();
+            });
+            //--------------------------------------------------//
+
+            //FADEIN
+            // se usa para desvanecer un elemento//
+            $('#FADEIN').click(function() {
+                $('#parrafo4').fadeIn("slow");
+            });
+            //FADEOUT
+            $('#FADEOUT').click(function() {
+                $('#parrafo4').fadeOut(4000);
+            });
+            //add class--------------------------------------------------
+            // se usa para agregar 1 o mas nombre de clase a un elemento//
+            $('#ADDCLASS').click(function() {
+                $('#parrafo5').addClass("clase");
+            });
+
+        });
+        //fin JQuery
+    </script>
+    <style>
+        .clase {
+            color: brown;
+            font-size: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>FUNCIÓN CLICK</h1>
+        <p>Clickea el botón para ejeutar el evento click</p>
+        <button id="boton1">Funcion click</button>
+        <hr>
+        <h1>FUNCIÓN HIDE, SHOW y TOGGLE</h1>
+        <p id="parrafo2">Clickea el botón para ejeutar la funcion hide,Show,toggle</p>
+        <button id="boton2">Funcion hide</button>
+        <button id="boton3">Funcion show</button>
+        <button id="boton4">Funcion toggle</button>
+        <hr>
+        <h1>FUNCIÓN SLIDEDOWN-SLIDEUP-SLIDETOGGLE</h1>
+        <p id="parrafo3">Clickea el botón para ejeutar la funcion slideDown,slideUp,slidetoggle</p>
+        <button id="slideDown">Funcion Down</button>
+        <button id="slideup">Funcion UP</button>
+        <button id="slidetoggle">Funcion toggle</button>
+        <hr>
+        <h1>FUNCIÓN FADEIN-FADEOUT</h1>
+        <p id="parrafo4">Clickea el botón para ejeutar la funcion fadein,fadeout</p>
+        <button id="FADEIN">Funcion fadein</button>
+        <button id="FADEOUT">Funcion fadeout</button>
+        <hr>
+        <h1>FUNCIÓN ADDCLASS</h1>
+        <p id="parrafo5">Clickea el botón para ejeutar la funcion add class</p>
+        <button id="ADDCLASS">Funcion ADD CLASS</button>
+        <hr>
+
+    </div>
+</body>
+
+</html>
