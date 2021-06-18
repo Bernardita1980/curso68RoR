@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja Desapareciendo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $('document').ready(function() {
+
+            for (let i = 1; i <= 8; i++) { //este for es para repetir 8 veces partiendo desde 1
+                $('#container').append('<img src="/Curso68/JQUERY/imagenes/tuxninja.jfif">');
+            }
+
+
+            $('img').addClass('ninja');
+
+            //agregar boton en container para cortarlo y ponerlo dentro de append
+            $('#container').append('<br><button id=restaurar>Restaurar</button>');
+            //el br es para separar el boton 
+            //desaparece la imagen
+            $('img').click(function() {
+                $(this).hide(3000);
+
+            });
+
+            //restaurar imagenes 
+            $('button').click(function() {
+                $('img').show(2000);
+            });
+
+            //fin JQuery    
+        });
+    </script>
+    <style>
+        .ninja {
+            border: 1px solid black;
+            width: 150px;
+            margin: 10px;
+        }
+        
+        #container {
+            width: 700px;
+            background-color: rgb(95, 105, 160);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+</body>
+
+</html>
