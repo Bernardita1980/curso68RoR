@@ -85,18 +85,19 @@
                 $("#APPEND").append("<h1>AGREGO HTML</h1>")
             });
             //Html--------------------------------------------------
-            // sobreescribe texto o elementos html//
+            // remplaza texto o elementos html//
             $('#sobreescribo').click(function() {
                 $("#html").html("<h1>AGREGO HTML</h1>")
             });
             //ATTR--------------------------------------------------
-            // obtener y/o modificar atributos  de los elementos seleccionados//
+            // consultar el contenido del atributo y/o agrega atributos  de los elementos seleccionados//
             $('#boton5').click(function() {
                 var respuesta = $('#boton5').attr('value');
                 var wimagen = $('img').attr('width');
                 alert(respuesta + ' ' + wimagen);
                 //alert(wimagen);
                 alert($('#boton5').val());
+                //para consultar el atributo console.log($('#container').attr('class'));
             });
             //Vall
             $('#boton6').click(function() {
@@ -117,6 +118,7 @@
                 }
             });
             //--------TEXT------------------------------------------------------
+            //obtiene el contenido dentro de la etiqueta
             $('#Text').click(function() {
                 $('#TEXT').text("Esto es texto modificado");
 
