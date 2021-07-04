@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    width: 970px;
+    background-image: linear-gradient(#346fb3, #1f446d);
+    height: 970px;
+    display: inline-block;
+}
+
+.navbar {
+    height: 90px;
+    display: inline-block;
+    background-image: linear-gradient(#edebe7, #dcd8d1);
+    width: 970px;
+}
+
+.navbar input {
+    border-radius: 5px;
+}
+
+.navbar a {
+    color: #62335f;
+}
+
+#corporate {
+    padding-right: 35px;
+    display: inline-block;
+    border-radius: 10px 0px 0px 10px;
+    background-image: linear-gradient(#2869b4, #18447d);
+    color: white;
+    margin-left: 370px;
+    margin-right: 53px;
+    font-size: smaller;
+}
+
+.navegador {
+    display: inline-block;
+    margin: 5px 10px 5px 370px;
+}
+
+#contenedor_medio {
+    display: inline-block;
+    height: 384px;
+    width: 950px;
+    background-color: transparent;
+}
+
+#centrofoto {
+    width: 675px;
+    height: 357px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#chicos {
+    display: inline-block;
+    width: 440px;
+    height: 345px;
+}
+
+#lado_iz {
+    height: 295px;
+    width: 250px;
+    display: inline-block;
+    background-color: #d6dde4;
+    margin: 10px;
+    padding: 1px;
+}
+
+#lado_iz input {
+    border-radius: 5px;
+    margin-left: 30px;
+    vertical-align: top;
+    display: inline-block;
+    border-color: #ebebeb;
+}
+
+#lado_iz label {
+    margin-left: 30px;
+    font-size: medium;
+    margin-bottom: auto;
+}
+
+#lado_iz p {
+    margin-left: 30px;
+    font-size: medium;
+    color: #008af4;
+}
+
+.hh {
+    background-image: linear-gradient(#123e6e, #2565ad);
+    width: 247px;
+    display: inline-block;
+}
+
+#lado_buton {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+#texto {
+    background-image: linear-gradient(#225af2, #154274);
+    border-color: aliceblue;
+    color: aliceblue;
+}
+
+#boton-sing {
+    border-radius: 6px;
+    width: 100px;
+    background-image: linear-gradient(#9e9595, #3a3838);
+    color: white;
+}
+
+#barra-gris {
+    background-color: #d4dbe3;
+    width: 970px;
+    height: 30px;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+#text4 {
+    color: #0078f8;
+    margin-left: 50px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#text3 {
+    display: inline-block;
+    color: #333333;
+}
