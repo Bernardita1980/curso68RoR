@@ -1,0 +1,2 @@
+class Ensalada < ApplicationRecord
+end

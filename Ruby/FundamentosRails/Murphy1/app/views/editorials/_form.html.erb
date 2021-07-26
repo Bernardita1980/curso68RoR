@@ -1,0 +1,22 @@
+<%= form_with(model: editorial) do |form| %>
+  <% if editorial.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(editorial.errors.count, "error") %> prohibited this editorial from being saved:</h2>
+
+      <ul>
+        <% editorial.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :nombre %>
+    <%= form.text_field :nombre %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

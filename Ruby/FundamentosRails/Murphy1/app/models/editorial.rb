@@ -1,0 +1,2 @@
+class Editorial < ApplicationRecord
+end

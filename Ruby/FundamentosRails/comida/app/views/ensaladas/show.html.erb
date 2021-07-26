@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @ensalada.nombre %>
+</p>
+
+<p>
+  <strong>Precio:</strong>
+  <%= @ensalada.precio %>
+</p>
+
+<%= link_to 'Edit', edit_ensalada_path(@ensalada) %> |
+<%= link_to 'Back', ensaladas_path %>
